@@ -1,3 +1,4 @@
+#play
 ---
 - name: demonstrate file module
   hosts: localhost
