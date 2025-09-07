@@ -1,4 +1,5 @@
 ---
+#play
 - name: My First Playbook
   hosts: sapprod
   become: true
