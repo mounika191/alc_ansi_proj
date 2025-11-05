@@ -1,6 +1,6 @@
 #play
 ---
-- name: demonstrate file module
+- name: demonstrate file module file
   hosts: localhost
   become: true
   tasks:
