@@ -1,8 +1,13 @@
 #play
 ---
+<<<<<<< HEAD
 #play to demonstrate  file module
 #- name: demonstrate file module
   hosts: localhost
+
+- name: demonstrate file module
+ # hosts: localhost
+
   become: true
   tasks:
    - name: Create a Directory
