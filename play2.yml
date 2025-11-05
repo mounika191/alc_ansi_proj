@@ -1,5 +1,5 @@
 ---
-- name: Play to create a group and then user
+- name: Play to create a group and then user and group
   hosts: sapdev
   gather_facts: false
   become: true
