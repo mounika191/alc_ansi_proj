@@ -1,5 +1,5 @@
 ---
- - name: Play1 for installing firewall
+ - name: Play1 for installing firewalld
    become: true
    become_user: root
    hosts: localhost
