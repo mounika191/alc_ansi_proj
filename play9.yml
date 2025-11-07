@@ -1,6 +1,8 @@
 ---
 #play1 for installing firewall
- - name: Play1 for installing firewall
+ - name: Play1 for installing firewalld
+ - name: Play1 for installing firewalld
+>>>>>>> feature01
    become: true
    become_user: root
    hosts: localhost
