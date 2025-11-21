@@ -1,0 +1,7 @@
+---
+- name: SNS Notification Test
+  hosts: localhost
+  connection: local
+
+  roles:
+    - sns
