@@ -1,0 +1,15 @@
+---
+# tasks file for ec2_instance
+# ---
+- name: Launch EC2 instance
+  amazon.aws.ec2_instance:
+    region: "{{ region }}"
+    instance_type: "{{ instance_type }}"
+    image_id: "{{ ami_id }}"
+    security_groups: [ "{{ security_group }}" ]
+    key_name: "{{ key_name }}"
+    wait: yes
+  register: ec2_output
+
+- debug:
+    var: ec2_output

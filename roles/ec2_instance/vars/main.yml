@@ -1,0 +1,8 @@
+---
+# vars file for ec2_instance
+region: ap-south-1
+instance_type: t3.micro
+ami_id: ami-0d176f79571d18a8f
+security_group: sg-0a0389cad20ad1e04
+key_name: alc_02_key
+#
